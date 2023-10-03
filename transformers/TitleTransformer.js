@@ -1,7 +1,7 @@
 /**
  * Transforms the page title
  */
-const username = "@JustinLowen"
+const username = "@JeremyFerrell"
 
 class TitleTransformer {
 
