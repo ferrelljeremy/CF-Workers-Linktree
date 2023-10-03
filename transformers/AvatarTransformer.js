@@ -1,7 +1,7 @@
 /**
  * Transforms img#avatar by setting the src attribute.
  */
-const avatarSrc = "https://raw.githubusercontent.com/JLowe-N/CF-Workers-Linktree/master/img/JLowen_avatar.png"
+const avatarSrc = "https://files.ferrell.farm/Jeremy headshot.png"
 
 class AvatarTransformer {
 
