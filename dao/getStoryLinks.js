@@ -5,34 +5,34 @@
 
 function getLinksEndpoint() {
     return [
-        {
-            "name": "Source Code: Cloudflare Worker Based Linktree",
-            "url": "https://github.com/JLowe-N/CF-Workers-Linktree"
-        },
-        {
-            "name": "Source Code: Golang Based Request Profiler",
-            "url": "https://github.com/JLowe-N/Systems-Profiler"
-        },
-        {
-            "name": "Portfolio",
-            "url": "https://JLowe-N.github.io"
-        },
-        {
-            "name": "Project: React-based Netflix",
-            "url": "https://jlowen-netflix.netlify.app/"
-        },
-        {
-            "name": "Project: Front End UI - Beer Locator",
-            "url": "https://justin-lowen.herokuapp.com/punk-api-beer-app"
-        },
-        {
-            "name": "Download My Resume (PDF)",
-            "url": "https://github.com/JLowe-N/MyResume/raw/master/Justin%20Lowen%20-%20Software%20Engineer%20-%20Sept%202020%20-%20Public%20Copy.pdf"
-        },
-        {
-            "name": "Learn Something New: How To Brew",
-            "url": "http://www.howtobrew.com/"
-        }
+          {
+            "name": "Cell: (256) 385-0736",
+            "url": "tel:256-385-0736"
+          },    
+          {
+            "name": "Email Address: jeremy@ferrell.farm",
+            "url": "mailto: jeremy@ferrell.farm"
+          },
+          {
+            "name": "VCARD: Jeremy K Ferrell",
+            "url": "https://files.ferrell.farm/Jeremy K Ferrell Ferrell Farms.vcf"          
+          },
+          {
+            "name": "Jeremyferrell.com",
+            "url": "https://www.jeremyferrell.com/"
+          },    
+          {
+            "name": "Ferrell Farms",
+            "url": "https://www.ferrellfarms.org/"
+          },
+          {
+            "name": "Nostr",
+            "url": "https://primal.net/ferrelljeremy"
+          },
+          {
+            "name": "Send payment via Lightning: ferrelljeremy@getalby.com ",
+            "url": "https://getalby.com/ferrelljeremy"
+          }
     ]
 }
 
