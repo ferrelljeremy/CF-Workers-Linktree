@@ -5,7 +5,7 @@
 
 const bodyStyle = `
 body {
-  background-image: url('https://raw.githubusercontent.com/JLowe-N/CF-Workers-Linktree/master/img/dream-holidays-1511-1024.jpg');
+  background-image: url('https://files.ferrell.farm/Ferrell Farms cattle.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
