@@ -15,7 +15,7 @@ const AvatarTransformer = require('../transformers/AvatarTransformer')
 const NameTransformer = require('../transformers/NameTransformer')
 const StoryLinkTransformer = require('../transformers/StoryLinkTransformer')
 const SocialLinkTransformer = require('../transformers/SocialLinkTransformer')
-
+var ImagesTransformer = require_ImagesTransformer();
 /**
  * HTML Handler - served on all routes except /links
  */
@@ -31,6 +31,7 @@ async function htmlHandler(request) {
         .on("h1#name", new NameTransformer())
         .on("div#links", new StoryLinkTransformer(storyLinks))
         .on("div#social", new SocialLinkTransformer(socialLinks))
+        .on("div#images", new ImagesTransformer(images)); // Apply ImagesTransformer
 
     return transformer.transform(htmlTemplateResponse)
 }
